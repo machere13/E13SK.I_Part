@@ -1,0 +1,30 @@
+module E13SK
+{
+    imports
+    {
+        Base
+    }
+    
+    item Cola
+    {
+        DisplayCategory = Food,
+        Type = Food,
+        DisplayName = Cola,
+        Icon = Item_Cola,
+        Weight = 0.5,
+        HungerChange = -5,
+        ThirstChange = -30,
+        Calories = 150,
+        Carbohydrates = 40,
+        Lipids = 0,
+        Proteins = 0,
+        Alcohol = 0,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+        UnhappyChange = -5,
+        BoredomChange = -5,
+        CustomEatSound = drinkingcan,
+        ReplaceOnUse = Base.EmptyCan,
+        Tooltip = A sweet and fizzy cola drink from E13SK Mod.,
+    }
+} 
