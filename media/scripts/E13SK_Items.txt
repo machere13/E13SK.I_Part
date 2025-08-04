@@ -23,7 +23,8 @@ module E13SK
         CantBeFrozen = TRUE,
         UnhappyChange = -5,
         BoredomChange = -5,
-        CustomEatSound = drinkingcan,
+        CustomEatSound = DrinkingFromCan,
+        CustomContextMenu = Drink,
         ReplaceOnUse = Base.EmptyCan,
         Tooltip = A sweet and fizzy cola drink from E13SK Mod.,
     }
