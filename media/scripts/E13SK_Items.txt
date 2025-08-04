@@ -10,7 +10,7 @@ module E13SK
         DisplayCategory = Food,
         Type = Food,
         DisplayName = Cola,
-        Icon = Item_Cola,
+        Icon = Cola,
         Weight = 0.5,
         HungerChange = -5,
         ThirstChange = -30,
