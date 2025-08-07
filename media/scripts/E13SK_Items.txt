@@ -25,7 +25,7 @@ module E13SK
         BoredomChange = -5,
         CustomEatSound = DrinkingFromCan,
         CustomContextMenu = Drink,
-        ReplaceOnUse = Base.EmptyCan,
+        OnUse = Base.EmptyCan,
         Tooltip = A sweet and fizzy cola drink from E13SK Mod.,
     }
 } 
