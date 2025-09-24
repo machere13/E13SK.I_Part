@@ -1,0 +1,2 @@
+IGUI_ItemCat_Soda = "Soda",
+IGUI_ItemCat_Chips = "Chips"

@@ -7,9 +7,9 @@ module E13SK
     
     item Cola
     {
-        DisplayCategory = Газировка,
-        Type = Food,
         DisplayName = Cola,
+        DisplayCategory = Soda,
+        Type = Food,
         Icon = Cola,
         Weight = 0.5,
         HungerChange = -5,
@@ -32,7 +32,7 @@ module E13SK
     item LaysChips
     {
         DisplayName = Lay`s,
-		DisplayCategory = Чипсы,
+		DisplayCategory = Chips,
 		Type = Food,
 		Weight = 0.2,
 		Icon = Crisps,
@@ -50,4 +50,4 @@ module E13SK
         BoredomChange = -8,
         CustomContextMenu = Eat,
     }
-} 
+}

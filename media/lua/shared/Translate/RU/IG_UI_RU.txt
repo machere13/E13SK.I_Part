@@ -1,0 +1,2 @@
+IGUI_ItemCat_Soda = "Газировки",
+IGUI_ItemCat_Chips = "Чипсы"
