@@ -7,7 +7,7 @@ module E13SK
     
     item Cola
     {
-        DisplayCategory = Food,
+        DisplayCategory = Газировка,
         Type = Food,
         DisplayName = Cola,
         Icon = Cola,
@@ -27,5 +27,27 @@ module E13SK
         CustomContextMenu = Drink,
         ReplaceOnUse = PopEmpty,
         Tooltip = A sweet and fizzy cola drink from E13SK Mod.,
+    }
+    
+    item LaysChips
+    {
+        DisplayName = Lay`s,
+		DisplayCategory = Чипсы,
+		Type = Food,
+		Weight = 0.2,
+		Icon = Crisps,
+		CantBeFrozen = TRUE,
+		Packaged = TRUE,
+		HungerChange = -15,
+		Calories = 720,
+		Carbohydrates = 72,
+		Lipids = 45,
+		Proteins = 4.5,
+		CustomEatSound = EatingCrispy,
+		WorldStaticModel = Chips,
+        Tooltip = Crispy and salty potato chips from Lay's. A perfect snack.,
+        UnhappyChange = -3,
+        BoredomChange = -8,
+        CustomContextMenu = Eat,
     }
 } 
