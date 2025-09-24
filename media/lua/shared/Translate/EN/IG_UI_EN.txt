@@ -1,2 +1,4 @@
-IGUI_ItemCat_Soda = "Soda",
-IGUI_ItemCat_Chips = "Chips"
+IGUI_EN = {
+    IGUI_ItemCat_Soda = "Drinks - Soda",
+    IGUI_ItemCat_Chips = "Snacks - Chips"
+}
